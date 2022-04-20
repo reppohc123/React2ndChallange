@@ -6,3 +6,13 @@
 //E.g.
 //Created by Angela Yu.
 //Copyright 2019.
+import React from "react";
+import ReactDom from "react-dom";
+var YOURNAME = "<CodedName>";
+ReactDom.render(
+  <div>
+    <p>Created by {YOURNAME}</p>
+    <p>Copyright {new Date().getFullYear()}</p>
+  </div>,
+  document.getElementById("root")
+);
